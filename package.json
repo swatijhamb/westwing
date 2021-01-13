@@ -1,0 +1,28 @@
+{
+  "name": "westwing",
+  "version": "1.0.0",
+  "description": "Shop the look test",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/.bin/wdio ./wdio.conf.js"
+  },
+  "author": "Swati Jhamb",
+  "license": "ISC",
+  "devDependencies": {
+    "@rpii/wdio-html-reporter": "^6.3.1",
+    "@wdio/allure-reporter": "^6.11.0",
+    "@wdio/local-runner": "^6.11.3",
+    "@wdio/mocha-framework": "^6.11.0",
+    "@wdio/spec-reporter": "^6.11.0",
+    "@wdio/sync": "^6.11.0",
+    "chai": "^4.2.0",
+    "chai-webdriverio": "^1.0.0",
+    "chromedriver": "^87.0.5",
+    "local-runner": "^0.1.1-alpha",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^6.11.3"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.11.3"
+  }
+}
